@@ -29,7 +29,7 @@ public class GL2JNIActivity extends Activity {
     GL2JNIView mView;
 
     @Override protected void onCreate(Bundle icicle) {
-        MobileCenter.start(getApplication(), "{Your App Secret}", Analytics.class, Crashes.class);
+        MobileCenter.start(getApplication(), "{e8eb618b-7a22-4c39-8e50-0cca102135cd}", Analytics.class, Crashes.class);
 	    super.onCreate(icicle);
         mView = new GL2JNIView(getApplication());
 	setContentView(mView);
